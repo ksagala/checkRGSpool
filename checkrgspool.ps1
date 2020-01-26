@@ -1,3 +1,6 @@
+#
+# 
+#
 function checkRGSpool {
     param (
         [string]$poolname
