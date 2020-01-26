@@ -2,7 +2,6 @@ function checkRGSpool {
     param (
         [string]$poolname
     )
-
     $agentgroups = Get-CsRgsAgentGroup | Where-Object OwnerPool -eq $poolname
 
     ForEach ($agentgr in $agentgroups) {
