@@ -1,0 +1,1 @@
+Function is used for checking agent groups for specific Skype for Business server pool
